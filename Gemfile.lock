@@ -1,15 +1,4 @@
 GIT
-  remote: git://github.com/plataformatec/devise.git
-  revision: bcdd54cc5ebd3413eeb3d17e3b634e8ace0d09f3
-  specs:
-    devise (4.1.0)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 4.1.0, < 5.1)
-      responders
-      warden (~> 1.2.3)
-
-GIT
   remote: git://github.com/plataformatec/simple_form.git
   revision: 6f537ed98e0fb7a50977a101d1da92dc0696031e
   specs:
@@ -75,6 +64,12 @@ GEM
     coderay (1.1.1)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
+    devise (4.0.0.rc2)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0, < 5.1)
+      responders
+      warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.10)
@@ -204,7 +199,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass
-  devise!
+  devise (= 4.0.0.rc2)
   figaro
   font-awesome-sass
   jbuilder (~> 2.0)
